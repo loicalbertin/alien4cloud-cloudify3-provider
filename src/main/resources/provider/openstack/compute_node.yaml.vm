@@ -39,7 +39,7 @@
     interfaces:
       cloudify.interfaces.lifecycle:
         start:
-          max_retries: 40
+          max_retries: 100
       cloudify.interfaces.worker_installer:
         install:
           inputs:
